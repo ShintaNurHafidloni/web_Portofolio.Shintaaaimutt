@@ -1,0 +1,26 @@
+.hero {
+    background: linear-gradient(135deg, #2e4cd1, #35c5e9);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Efek zoom seluruh card */
+.portfolio-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05); /* zoom 105% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* tambah efek bayangan */
+}
+
+/* Khusus card di section pengalaman */
+.pengalaman-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pengalaman-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
